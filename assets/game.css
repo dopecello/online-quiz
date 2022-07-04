@@ -5,6 +5,7 @@
 
 body {
     color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #question {
@@ -30,18 +31,19 @@ body {
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem rgb(41, 37, 37, 0.5);
-    transform: scale(1.02);
-    transition: transform 100ms;
+    transform: scale(0.98);
+    transition: transform 150ms;
 }
 
 .choice-prefix {
     padding: 2rem 2.5rem;
-    color: white;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
+    font-size: 2rem;
+    margin-top: 3.5rem;
 }
 
 .correct {
@@ -52,6 +54,17 @@ body {
     background-color: red;
 }
 
+.timer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.timer-text {
+    margin-top: 0%;
+}
 /* Heads up display */
 #hud {
     display: flex;
