@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(130, 66, 143);
+}
+
+body {
+    color: #fff;
+}
+
+#question {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background-color: gold;
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container p {
+    background-color: gold;
+    color: black;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem rgb(41, 37, 37, 0.5);
+    transform: scale(1.02);
+    transition: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+/* Heads up display */
+#hud {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progressBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }    
+}
