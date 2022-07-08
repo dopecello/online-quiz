@@ -5,7 +5,7 @@ Practicing manipulating HTML with JS thru the DOM. I think I went a little too c
 
 ## Screenshot
 
-![Online Quiz][/assets/online-quiz.png]
+![Online Quiz](/assets/online-quiz.png)
 
 ## Link to deployed app
 
