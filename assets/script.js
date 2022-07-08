@@ -1,7 +1,4 @@
 const questionText = document.querySelector('#question');
-const questionNumber = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
 const choiceOne = document.querySelector('#choice-one'); 
 const choiceTwo = document.querySelector('#choice-two');
 const choiceThree = document.querySelector('#choice-three');
